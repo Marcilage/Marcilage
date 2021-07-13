@@ -4,7 +4,7 @@
 
 ⚠️ **Atenção** Note que, essa é uma lista minha, e eu as organizei em ordem de qual ano às conheci*</br>
 
-> ## Antes dos anos 2018:
+## Antes dos anos 2018:
 * Os Cavaleiros do Zodíaco;
 * Sailor Moon;
 * Pokémon;
@@ -20,7 +20,7 @@
 
 · nem todos os animes antes de 2018 estão aí, tem uma grande probabilidade de minha pessoa ter esquecido alguns deles.
 
-> ## Nos anos 2018:
+## Nos anos 2018:
 * Orange;
 * Re: Zero Kara Hijimeru Isekai Sekaitsu;
 * Black Clover;
@@ -33,7 +33,7 @@
 * Nekopara;
 * Rokudenashi Majutsu Koushi to Akashic Records;
 
-> ## Nos anos 2019:
+## Nos anos 2019:
 * Sword Art Online;
 * Magi: Sinbad no Bouken;
 * Nanatsu No Taizai;
@@ -67,13 +67,13 @@
 * Violet Evergarden;
 * The Promised Neverland;
 
-> ## Nos anos 2020:
+## Nos anos 2020:
 * Fate;
 
-> ## Nos anos 2021:
+## Nos anos 2021:
 
-<!-- >> ## Nos anos 2022: -->
+<!-- ## Nos anos 2022: -->
 
 ---
 
->>> [MAl](https://www.google.com/) | [List](https://www.google.com/)
+[MAl](https://myanimelist.net/profile/Marcilage) | [List](https://www.google.com/)
