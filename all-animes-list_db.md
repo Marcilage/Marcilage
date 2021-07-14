@@ -1,5 +1,5 @@
 # Lista de todos os Animes, que, Eu Marcilage, já assisti ou vou assistir
-> ![Marcilage Discord avatar](https://cdn.discordapp.com/avatars/679384313980125184/a_7ed581299d04c1e29aa0beab2809bf85.gif?size=64) <span>**Marcilage**</span>
+![Marcilage Discord avatar](https://cdn.discordapp.com/avatars/679384313980125184/a_7ed581299d04c1e29aa0beab2809bf85.gif?size=64) <span>**Marcilage**</span>
 
 
 ⚠️ **Atenção** Note que, essa é uma lista minha, e eu as organizei em ordem de qual ano às conheci*</br>
