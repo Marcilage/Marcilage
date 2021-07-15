@@ -1,17 +1,17 @@
-html {
-   width: 360px;
-   height: auto;
-}
 body {
-   padding-top: 0px;
+   padding-top: -3px;
    padding: 5px;
+   padding-left: 0px;
    margin-top: 0px;
-
+   margin-left: 0px;
+   background-color: #111111;
+   color: #FFFFFF; 
+   width: 100%;
 }
 h1 {
 	color: #330A5B;
 	font-size: 27px;
-	font-style: oblique 13deg;
+	font-style: oblique 90deg;
 	margin-left: 2px;
 	margin-bottom: 10px;
 	padding: 10px;
@@ -32,47 +32,83 @@ div#banner {
 	border-bottom-right-radius: 150px;
 	boder-bottom-left-radius: 13px;
     background-color: #E81090;
-    width: 256px;
+    width: 70%; /* 256px */
     height: 66px;
     position: relative;
 }
 div#banner-sub {
-   margin-left: -15px;
-   margin-top: -1px;
+   margin-left: -1px; /* -15px */
+   margin-top: -1px; 
    border-bottom-right-radius: 55px;
    padding: 0px;
    background-color: #800068;
    position: absolute;
-   width: 400px;;
+   width: 100%; /* 400px*/
    height: 67px;
 }
+img.avatar-marcilage {
+	margin-left: 47px;
+	border-radius: 1024px;
+	border-style: groove;
+	border-color: #140521;
+	width: 65px; 
+	height: 65px;
+}
+figcaption {
+  width: 150px;
+  height: 30px;
+  background-color: #427680;
+  margin-top: -65px; /* altura */
+  margin-left: 100px; /* direita(-0px←) ou esquerda(+0px→) */
+  border-bottom-left-radius: 256px;
+  border-bottom-right-radius: 16px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 256px;
+}
+span.nick-marcilage {
+   margin-bottom: -10px;
+   margin-left: 16px;
+   font-size: 27px;
+   color: #10E868;
+}
+.footer {
+   border-top-right-radius: 47px;
+   width: 32%;
+   height: 32px;
+   background-color: #0060D8;
+   position: fixed;
+   left: -3px;
+   bottom: 1px;
+
+}
+
+p.info {
+   font-size: 16px;
+   color: white;
+   position: absolute;
+   left: 30%;
+   bottom: -10px;
+}
+
+a.marcilage-site-anime-list {
+   color: pink;
+   text-decoration: none;
+
+}
+
+/* animes */
 img.a {
 	border-left-radius: 100px;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	background-color: #FF0069;
-	width: 10;
-    height: 10;
+	width: 50px; /* 65*/
+    height: 50px;
 }
-img.avatar-marcilage {
-	/* border-top-left-radius: 15px; */
-	margin-left: 155px;
-	border-radius: 30px;
-	border-style: groove;
-	border-color: #9D901A;
-	background-color: #FF0069;
-	width: 65;
-	height: 65;
+
+li.cavaleiro {
+   width: 50%;
+   height: 22%;
+   background-color: #00B1FF;
 
 }
-figcaption {
-  margin-top: -50px; /* altura */
-  margin-left: 30px; /* direita(-0px←) ou esquerda(+0px→) */
-  border: 2px: solid black;
-}
-span.nick-marcilage {
-   font-size: 30px;
-   color: #10E868;
-
-}
-/* */
