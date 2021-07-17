@@ -8,7 +8,7 @@ body {
    margin-top: 0;
    margin-left: 0px;
    background-color: #111111;
-   color: #ffffff; 
+   color: #ffffff;
    width: 100%;
    background-repeat: no-repeat;
    background-attachment: fixed;
@@ -17,36 +17,36 @@ body {
 }
 
 h1 {
-	color: #330A5B;
-	font-size: 27px;
-	font-style: oblique 90deg;
-	margin-left: 2px;
-	margin-bottom: 10px;
-	padding: 10px;
+   color: #330A5B;
+   font-size: 27px;
+   font-style: oblique 90deg;
+   margin-left: 2px;
+   margin-bottom: 10px;
+   padding: 10px;
 }
 h2 {
-	text-align: center;
-	font-size: 1.01em;
+   text-align: center;
+   font-size: 1.01em;
 }
 
 div#banner {
-	margin-left: -1px;
-	margin-top: -1px;
-	padding-top: 1px;
-	padding-right: 1px;
-	border-top-left-radius: 200px;
-	border-top-right-radius: 7px;
-	border-top-left-color: blue;
-	border-bottom-right-radius: 150px;
-	boder-bottom-left-radius: 13px;
-    background-color: #E81090;
-    width: 70%; /* 256px */
-    height: 66px;
-    position: relative;
+   margin-left: -1px;
+   margin-top: -1px;
+   padding-top: 1px;
+   padding-right: 1px;
+   border-top-left-radius: 200px;
+   border-top-right-radius: 7px;
+   border-top-left-color: blue;
+   border-bottom-right-radius: 150px;
+   boder-bottom-left-radius: 13px;
+   background-color: #E81090;
+   width: 70%; /* 256px */
+   height: 66px;
+   position: relative;
 }
 div#banner-sub {
    margin-left: -1px; /* -15px */
-   margin-top: -1px; 
+   margin-top: -1px;
    border-bottom-right-radius: 55px;
    padding: 0px;
    background-color: #800068;
@@ -55,24 +55,24 @@ div#banner-sub {
    height: 67px;
 }
 img.avatar-marcilage {
-	margin-left: 47px;
-	border-radius: 1024px;
-	border-style: groove;
-	border-color: #140521;
-	background-color: #FF0069;
-	width: 65px; 
-	height: 65px;
+   margin-left: 47px;
+   border-radius: 1024px;
+   border-style: groove;
+   border-color: #140521;
+   background-color: #FF0069;
+   width: 65px;
+   height: 65px;
 }
 figcaption {
-  width: 175px;
-  height: 30px;
-  background-color: #427680;
-  margin-top: -65px; /* altura */
-  margin-left: 100px; /* direita(-0px←) ou esquerda(+0px→) */
-  border-bottom-left-radius: 256px;
-  border-bottom-right-radius: 16px;
-  border-top-left-radius: 13px;
-  border-top-right-radius: 256px;
+   width: 175px;
+   height: 30px;
+   background-color: #427680;
+   margin-top: -65px; /* altura */
+   margin-left: 100px; /* direita(-0px←) ou esquerda(+0px→) */
+   border-bottom-left-radius: 256px;
+   border-bottom-right-radius: 16px;
+   border-top-left-radius: 13px;
+   border-top-right-radius: 256px;
 }
 span.nick-marcilage {
    margin-bottom: -10px;
@@ -90,7 +90,6 @@ span.nick-marcilage {
    position: fixed;
    left: -30px;
    bottom: 0px;
-
 }
 
 p.info {
@@ -126,65 +125,66 @@ li.animes-cards {
 }
 
 img.anime-cover {
-	border-left-radius: 100px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	background-color: #FF0069;
-	width: 64px; /* 65*/
-    height: 64px;
-    margin-top: 7px;
-    margin-left: 10px;
+   border-left-radius: 100px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   background-color: #FF0069;
+   width: 64px; /* 65*/
+   height: 64px;
+   margin-top: 7px;
+   margin-left: 10px;
 }
 /* status-me */
 img.anime-cover-drop { /* esse indica que eu dropei dele */
-    border-left-radius: 100px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	background-color: #FF0069;
-	width: 64px; /* 65*/
-    height: 64px;
-    margin-top: 7px;
-    margin-left: 10px;
-    border-top: 2px solid #FF0026;
-    border-right: 2px solid #ff0026;
+   border-left-radius: 100px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   background-color: #FF0069;
+   width: 64px; /* 65*/
+   height: 64px;
+   margin-top: 7px;
+   margin-left: 10px;
+   border-top: 2px solid #FF0026;
+   border-right: 2px solid #ff0026;
 }
 img.anime-cover-watching { /* esse indica que eu ainda estou-o assistindo... */
-    border-left-radius: 100px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	background-color: #FF0069;
-	width: 64px; /* 65*/
-    height: 64px;
-    margin-top: 7px;
-    margin-left: 10px;
-    border-top: 2px solid #583A92;
-    border-right: 2px solid #583A92;
+   border-left-radius: 100px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   background-color: #FF0069;
+   width: 64px; /* 65*/
+   height: 64px;
+   margin-top: 7px;
+   margin-left: 10px;
+   border-top: 2px solid #583A92;
+   border-right: 2px solid #583A92;
 }
 img.anime-cover-complete { /* esse indica que eu ainda estou-o assistindo... */
-    border-left-radius: 100px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-	background-color: #FF0069;
-	width: 64px; /* 65*/
-    height: 64px;
-    margin-top: 7px;
-    margin-left: 10px;
-    border-top: 2px solid #2CC000;
-    border-right: 2px solid #2CC000;
+   border-left-radius: 100px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   background-color: #FF0069;
+   width: 64px; /* 65*/
+   height: 64px;
+   margin-top: 7px;
+   margin-left: 10px;
+   border-top: 2px solid #2CC000;
+   border-right: 2px solid #2CC000;
 }
 
 span.titulo-animes {
    color: #111111;
    display: block;
-   font-size: 25px;
-   margin-top: -42px; 
+   font-family: monospace;
+   font-size: 24px;
+   margin-top: -42px;
    margin-left: 89px;
 }
 span.data-l-animes {
    color: #111111;
-   display: block;
+   display: inline;
    font-size: 14px;
-   margin-top: -15px; 
+   margin-top: -15px;
    margin-left: 10px;
    background-color: #585858;
    width: 45%;
