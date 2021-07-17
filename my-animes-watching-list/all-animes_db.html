@@ -2,28 +2,29 @@
 <html>
    <head>
       <meta charset="UTF-8">
-  <!--    <meta content="width=device-width,minimum-scale=1.0" name="viewport"> -->
+ <!--     <meta content="width=device-width,minimum-scale=1.0" name="viewport"> -->
       <title>Lista de Animes — Marcilage</title>
       <meta lang='pt-br'/>
       <meta charset='utf-8'/>
-      <link href='./style-animes_v1.css' rel='stylesheet'/>
+      <link href='./src/styles-css/style-animes_v1.css' rel='stylesheet'/>
    </head>
    <body>
       <div id='banner-sub'></div>
       <div id='banner'>
 		<figure>
-			<img src='https://cdn.discordapp.com/avatars/679384313980125184/a_7ed581299d04c1e29aa0beab2809bf85.gif?size=512' alt='Marcilage Discord avatar' class='avatar-marcilage'>
-			<figcaption><span class='nick-marcilage'>Marcilage</span></figcaption>
+		  <img src='https://cdn.discordapp.com/avatars/679384313980125184/a_7ed581299d04c1e29aa0beab2809bf85.gif?size=512' alt='Marcilage Discord avatar' class='avatar-marcilage'>
+		   <figcaption><span class='nick-marcilage'>Marcilage</span></figcaption>
 		</figure>
       </div>
       <h1>Lista de todos os Animes, que, Eu Marcilage, já assisti ou vou assistir.</h1>
       <p>⚠️ – <b>Atenção</b> Note que, essa é uma lista minha, e eu as organizei em ordem de qual ano às conheci*</br></p>
+      
       <h2>Antes dos anos 2018:</h2>
       <ul>
-         <li class='cavaleiro'><img src='https://cdn.myanimelist.net/images/anime/9/28496.webp' class='a'>Saint Seiya;<br>1989</li>
-         <li>Sailor Moon;</li>
-         <li>Pokémon;</li>
-         <li>Naruto;</li>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/9/28496.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Saint Seiya<a href='#'>¹</a></span><br><span class='data-l-animes'>Data de Lançamento 1989*</span></li>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/1440/92258.webp' class='anime-cover-watching'/><span class='titulo-animes'>» Sailor Moon</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/13/73834.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Pokémon</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/13/17405.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Naruto</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
          <li>Dragon Ball;</li>
          <li>Bagugan;</li>
          <li>Digimon;</li>
@@ -33,11 +34,11 @@
          <li>Yu-Gi-Oh!;</li>
          <li>Astro Boy;</li>
       </ul>
-      <blockquote class='2018'>
+      <blockquote class='before2018'>
 		<p>
 		<b>·</b> <i>Nem todos os Animes antes de 2018 estão aí, tem uma grande probabilidade de minha pessoa ter esquecido alguns deles. </i>
 		</p>
-      </blockquote>
+      </blockquote><!--
       <h2>Nos Anos 2018:</h2>
       <ul>
          <li>Orange;</li>
@@ -62,7 +63,7 @@
          <li>Asobi ni Iku yo!;</li>
          <li>Darling in FranXX;</li>
          <li>IS: Infinite Strato;</li>
-         <li>Chouji Koukousei-tachi wa Isekai demo Youyuu de Ikinuku you desu!;</li><!-- Nome grande prá porra! -->
+         <li>Chouji Koukousei-tachi wa Isekai demo Youyuu de Ikinuku you desu!;</li>
          <li>Chuunibyou demo koi ga shitei!;</li>
          <li>Death March kara Hajimeru Isekai Kyousoukyoku;</li>
          <li>Death Note;</li>
@@ -110,22 +111,37 @@
          <li>shinmai Maou testament;</li>
          <li>Senjou no Valkyria;</li>
       </ul>
-
-<!-- vou ter que converter do .md para o html.
-
-
-## Nos anos 2021:
-
- ## Nos anos 2022:
-
--->
-       
-   <div class='footer'>
-      <footer>
-         <p class='info'>
-         <a class='marcilage-site-anime-list' href='https://myanimelist.net/profile/Marcilage'>MAl</a> <strong>|</strong> <a class='marcilage-site-anime-list' href='www.google.com'>AniList</a>
-         </p> 
-      </footer>
-   </div>
+      <h2>Nos Anos 2021:</h2>
+      <ul>
+         <li></li>
+         <li></li>
+      </ul>
+      
+      <h3>Animes em Fila:</h3>
+      <p>Animes que estão na minha lista de espera, que eu um dia, talvez os assista.</p>
+      <ul id='u-animes-in-fila'>
+         "Hoshi o ou kodomo"
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> kara no kyoukai</li>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Little Witch academia</li>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> vivid strike</li>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> kaifuku jutsushi no yarinaoshi</li>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Date A Live III</li>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Hitsugi no Chaika</i>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Juvenile</li>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Diabolik lovers</li>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Owari no Seraph</li>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> busou shoujo</li>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Combatants Will Be Dispatched</li>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Kimi to Boku no Saigo no Senjou, Aruiwa Sekai ga Hajimaru Seisen</li>
+      </ul>
+          -->
+      <div class='footer'>
+         <footer>
+            <p class='info'>
+            <a class='marcilage-site-anime-list' href='https://myanimelist.net/profile/Marcilage'><img src='https://cdn.myanimelist.net/images/favicon.ico' class='mal'/>MAl</a> <strong>｜</strong> <a class='marcilage-site-anime-list' href='www.google.com'>AniList</a>
+            </p> 
+         </footer>
+      </div>
+     
 	</body>
 </html>
