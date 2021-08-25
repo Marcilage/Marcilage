@@ -2,17 +2,19 @@
 <html>
    <head>
       <meta charset="UTF-8">
- <!--     <meta content="width=device-width,minimum-scale=1.0" name="viewport"> -->
+  <!--    <meta content="width=device-width,minimum-scale=1.0" name="viewport">  -->
       <title>Lista de Animes — Marcilage</title>
       <meta lang='pt-br'/>
       <meta charset='utf-8'/>
-      <link href='./src/styles-css/style-animes_v1.css' rel='stylesheet'/>
+      <link href='./src/styles-css/style-animes_v1.css' rel='stylesheet' type='text/css'/>
+      <script src='./src/javascript/interations.js' type='text/javascript'></script>
    </head>
    <body>
+      <div id='cima-banner'></div>
       <div id='banner-sub'></div>
       <div id='banner'>
 		<figure>
-		  <img src='https://cdn.discordapp.com/avatars/679384313980125184/a_7ed581299d04c1e29aa0beab2809bf85.gif?size=512' alt='Marcilage Discord avatar' class='avatar-marcilage'>
+		  <img src='https://cdn.discordapp.com/avatars/679384313980125184/a_9273a0dbe89a183f8692bb10cc4fd8ab.gif?size=512' alt='Marcilage Discord avatar' class='avatar-marcilage'>
 		   <figcaption><span class='nick-marcilage'>Marcilage</span></figcaption>
 		</figure>
       </div>
@@ -20,21 +22,24 @@
       <p>⚠️ – <b>Atenção</b> Note que, essa é uma lista minha, e eu as organizei em ordem de qual ano às conheci*</br></p>
       
       <h2>Antes dos anos 2018:</h2>
-      <ul>
-         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/9/28496.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Saint Seiya<a href='#'>¹</a></span><br><span class='data-l-animes'>Data de Lançamento 1989*</span></li>
+      <div id='_2018'>
+        <ul>
+           <!-- alt='${name.anime} Anime Cover'-->
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/9/28496.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Saint Seiya<a href='#' class='about-anime'>¹</a></span><br><span class='data-l-animes'>Data de Lançamento 1989*</span></li>
          <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/1440/92258.webp' class='anime-cover-watching'/><span class='titulo-animes'>» Sailor Moon</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
          <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/13/73834.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Pokémon</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
          <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/13/17405.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Naruto</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
-         <li>Dragon Ball;</li>
-         <li>Bagugan;</li>
-         <li>Digimon;</li>
-         <li>Dinossauro Rei;</li>
-         <li>Sonix X;</li>
-         <li>ThunderCats Clássico;</li>
-         <li>Yu-Gi-Oh!;</li>
-         <li>Astro Boy;</li>
-      </ul>
-      <blockquote class='before2018'>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/{}/{}.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Dragon Ball</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/{}/{}.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Bagugan</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/{}/{}.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Digimon</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/{}/{}.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Dinossauro Rei</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/{}/{}.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Sonix X</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/{}/{}.webp' class='anime-cover-drop'/><span class='titulo-animes'>» ThunderCats Clássico</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/{}/{}.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Yu-Gi-Oh!</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
+         <li class='animes-cards'><img src='https://cdn.myanimelist.net/images/anime/{}/{}.webp' class='anime-cover-drop'/><span class='titulo-animes'>» Astro Boy</span><br><span class='data-l-animes'>Data de Lançamento ${year}</span></li>
+        </ul>
+      </div>
+      <blockquote class='anos-2018'>
 		<p>
 		<b>·</b> <i>Nem todos os Animes antes de 2018 estão aí, tem uma grande probabilidade de minha pessoa ter esquecido alguns deles. </i>
 		</p>
@@ -125,7 +130,7 @@
          <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Little Witch academia</li>
          <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> vivid strike</li>
          <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> kaifuku jutsushi no yarinaoshi</li>
-         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Date A Live III</li>
+         <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Date A Live*</li>
          <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Hitsugi no Chaika</i>
          <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Juvenile</li>
          <li><img src='./src/images/7103-zerounderstand.png' class='l-animes-in-fila'/> Diabolik lovers</li>
@@ -137,11 +142,11 @@
           -->
       <div class='footer'>
          <footer>
-            <p class='info'>
-            <a class='marcilage-site-anime-list' href='https://myanimelist.net/profile/Marcilage'><img src='https://cdn.myanimelist.net/images/favicon.ico' class='mal'/>MAl</a> <strong>｜</strong> <a class='marcilage-site-anime-list' href='www.google.com'>AniList</a>
-            </p> 
+            <p class='info'><img src='https://cdn.myanimelist.net/images/favicon.ico' class='mal'/> <a class='marcilage-site-anime-list' href='https://myanimelist.net/profile/Marcilage'>MAl</a> <strong>｜</strong> <a class='marcilage-site-anime-list' href='https://anilist.co/user/marcilage'>AniList</a></p> 
          </footer>
       </div>
      
 	</body>
 </html>
+<!-- <li class='animes-cards'><img src='' class='anime-cover-{}'/><span class='titulo-animes'>» {name}</span><br><span class='data-l-animes'>Data de Lançamento {date}</span></li>
+        -->
